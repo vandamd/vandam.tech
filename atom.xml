@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Vandam</title>
+	<subtitle>Website of Vandam Dinh</subtitle>
+	<link href="https://vandam.tech/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://vandam.tech"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2023-01-09T00:00:00+00:00</updated>
+	<id>https://vandam.tech/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Hotkeys and Window Management on macOS</title>
+		<published>2023-01-09T00:00:00+00:00</published>
+		<updated>2023-01-09T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://vandam.tech/blog/hotkeys-window-management/" type="text/html"/>
+		<id>https://vandam.tech/blog/hotkeys-window-management/</id>
+		<content type="html">&lt;p&gt;I find window management one of the biggest weaknesses of macOS. However, it can be remedied with a bit of effort. You may have heard of applications such as &lt;a href=&quot;https:&#x2F;&#x2F;magnet.crowdcafe.com&#x2F;&quot;&gt;Magnet&lt;&#x2F;a&gt; or &lt;a href=&quot;https:&#x2F;&#x2F;rectangleapp.com&#x2F;&quot;&gt;Rectangle&lt;&#x2F;a&gt;, but there is a better, free alternative in my opinion. Before discussing that, let&#x27;s talk about hotkeys.&lt;&#x2F;p&gt;
+&lt;p&gt;Imagine having a hotkey that could do anything you want. That would be great, right? With what I&#x27;m going to show you, you can customise your own hotkeys and actions. It has truly improved the way I use my MacBook.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;goodbye-caps-lock-hello-hyper-key&quot;&gt;Goodbye Caps Lock, hello Hyper Key&lt;&#x2F;h2&gt;
+&lt;p&gt;I rarely use the Caps Lock. Occasionally, I&#x27;ll type in all caps to shout at someone over text, but otherwise it&#x27;s not very useful for me. I can just hold down Shift! I’ve replaced it with something called the &lt;strong&gt;Hyper Key&lt;&#x2F;strong&gt;. &lt;&#x2F;p&gt;
+&lt;p&gt;With the Hyper Key, you can combine it with any other key. It is unlikely to be assigned to any existing shortcuts, so you can use that hotkey anywhere on macOS.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;how-do-i-get-this-hyper-key-thing&quot;&gt;How do I get this Hyper Key thing?&lt;&#x2F;h2&gt;
+&lt;p&gt;To assign the Hyper Key, I use an application called Karabiner Elements. The link is &lt;a href=&quot;https:&#x2F;&#x2F;karabiner-elements.pqrs.org&#x2F;&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;The setup process can be overwhelming, as many things may pop up. Take your time and follow the instructions. Once it&#x27;s running, let&#x27;s set up something called &lt;strong&gt;Rules&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Simplified Explanation: When you press a key, it performs an action. This action is usually outputting a letter, symbol, or initiating a command (e.g. Control, Option, Command, Escape, etc.). With rules, we can customise that action! Below is a screenshot of the rules I use.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;blog&#x2F;Karabiner-Rules.png&quot; alt=&quot;Untitled&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;how-do-i-add-rules&quot;&gt;How do I add rules?&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Open Karabiner Elements Settings from the menu bar.&lt;&#x2F;li&gt;
+&lt;li&gt;Select &#x27;Complex Modifications&#x27; on the side menu.&lt;&#x2F;li&gt;
+&lt;li&gt;Press the &#x27;Add rule&#x27; button.&lt;&#x2F;li&gt;
+&lt;li&gt;Click the &#x27;Import more rules from the Internet (Open a web browser)&#x27; button.&lt;&#x2F;li&gt;
+&lt;li&gt;Search for &lt;code&gt;CAPS_LOCK to Hyper&#x2F;Escape, Hyper + i&#x2F;j&#x2F;k&#x2F;l Vim navigation and others&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Press the &#x27;import&#x27; button on the top result.&lt;&#x2F;li&gt;
+&lt;li&gt;Enable &lt;code&gt;CAPS_LOCK to HYPER (SHIFT+COMMAND+OPTION+CONTROL) or ESCAPE (If Alone)&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Search for &lt;code&gt;Disable WifiDiagnostics shortcuts (Free up Hyper-W)&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Import and enable &lt;code&gt;Disable command+control+option+shift+, which triggers WiFi logging&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;If you&#x27;ve done it correctly, pressing Caps Lock won&#x27;t cause the key to light up!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;how-can-i-start-using-the-hyper-key&quot;&gt;How can I start using the Hyper Key?&lt;&#x2F;h2&gt;
+&lt;p&gt;You could assign it in applications you already use but I highly recommend you to use it in an application called Raycast. For those of you who are familiar to the Spotlight feature on macOS, it&#x27;s essentially that but on steroids. It has clipboard history, window management, extensions, you can map hotkeys for any app, and so much more with the built in store. The link for Raycast is &lt;a href=&quot;https:&#x2F;&#x2F;www.raycast.com&#x2F;&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;After installing it, I recommend binding it with Hyper + Space. To open up Raycast settings you can toggle Raycast and then press Command + Comma or you can search for the settings with Raycast.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;okay-what-hotkeys-should-i-use&quot;&gt;Okay, what hotkeys should I use?&lt;&#x2F;h2&gt;
+&lt;p&gt;I&#x27;m not sure which applications you use, but here are some of my hotkeys. I have the entire bottom row free, except for Hyper + C, which centres my focused window.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Hotkey&lt;&#x2F;th&gt;&lt;th&gt;Action&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Hyper + Space&lt;&#x2F;td&gt;&lt;td&gt;Open Raycast&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Hyper + W&lt;&#x2F;td&gt;&lt;td&gt;Open Arc&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Hyper + S&lt;&#x2F;td&gt;&lt;td&gt;Open Spotify&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Hyper + A&lt;&#x2F;td&gt;&lt;td&gt;Open iTerm2&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Hyper + N&lt;&#x2F;td&gt;&lt;td&gt;Open Notion&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Hyper + M&lt;&#x2F;td&gt;&lt;td&gt;Open Messages&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Hyper + B&lt;&#x2F;td&gt;&lt;td&gt;Open Sublime Text&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Hyper + V&lt;&#x2F;td&gt;&lt;td&gt;Open Anki&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Hyper + X&lt;&#x2F;td&gt;&lt;td&gt;Open Mail&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Hyper + Z&lt;&#x2F;td&gt;&lt;td&gt;Open Todoist&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Control + Enter&lt;&#x2F;td&gt;&lt;td&gt;Toggle Bitwarden Shortcut in Raycast&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h2 id=&quot;did-you-forget-about-window-management&quot;&gt;Did you forget about Window Management?&lt;&#x2F;h2&gt;
+&lt;p&gt;No, here it is! Raycast can also manage my windows. I find this even faster than the typical window snapping that Windows has! Super powerful stuff.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;blog&#x2F;Window-Hotkeys.png&quot; alt=&quot;Untitled&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The amount of customisation you can do in Raycast is impressive. It&#x27;s definitely worth checking out if you can. There&#x27;s a learning curve with the hotkeys, but once you get used to them, life becomes much easier.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;minimal-setup-suggestion&quot;&gt;Minimal Setup Suggestion&lt;&#x2F;h2&gt;
+&lt;p&gt;As a starting point, I would set up:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hyper + Space to toggle Raycast&lt;&#x2F;li&gt;
+&lt;li&gt;Hyper + Arrow Keys to move windows to the sides&lt;&#x2F;li&gt;
+&lt;li&gt;Hyper + Enter to maximise windows&lt;&#x2F;li&gt;
+&lt;li&gt;Create a &amp;quot;Quicklink&amp;quot; to &amp;quot;Search Google&amp;quot; with an alias of &amp;quot;gs&amp;quot; or any other short name.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;If you enter &amp;quot;gs&amp;quot; into Raycast and press Space, you can make a quick Google search and it’ll open in your default browser.&lt;&#x2F;p&gt;
+&lt;p&gt;Once you start experimenting, you&#x27;ll find what works for you. The hotkeys I showed are what work for me; feel free to use them as inspiration. If you need any help, don&#x27;t hesitate to reach out to me via email or text if you have my number!&lt;&#x2F;p&gt;
+&lt;p&gt;V 😊&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Disconnecting to become more connected</title>
+		<published>2023-01-01T00:00:00+00:00</published>
+		<updated>2023-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://vandam.tech/blog/disconnecting-more-connected/" type="text/html"/>
+		<id>https://vandam.tech/blog/disconnecting-more-connected/</id>
+		<content type="html">&lt;p&gt;At the time of writing this, I&#x27;m 19 years old. I grew up with technology for most of my life—we had a huge beige family computer in our living room, and I&#x27;d watch Digimon with my brother. What a time!&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;ve had a long relationship with all sorts of screens—TVs, Game Boys, DSs, PSPs, iPods, netbooks, and laptops—but by far, I&#x27;ve had the worst relationship with my phone.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;m living in the 21st century, it&#x27;s normal to have Instagram, Facebook, Twitter, Reddit, and TikTok, right? Yes, but maybe it&#x27;s not normal to be spending hours scrolling mindlessly through feed after feed. It&#x27;s not normal to not be bored.&lt;&#x2F;p&gt;
+&lt;p&gt;I was addicted to my phone, spending 10+ hours on it every day. I knew it wasn&#x27;t okay, but I was reluctant, maybe even scared, to make the jump. I experimented with deleting and limiting apps on my phone, and deactivating accounts, but fast forward to November 2022, I bought my first dumb-phone. I used this particular phone for a month or so; it had the bare minimum - calls and texts - and I had never been so happy in my life.&lt;&#x2F;p&gt;
+&lt;p&gt;I realised it was pretty hardcore and I knew I needed a few more functionalities like a camera for scanning QR codes, my calendar, the ability buy and use train tickets, and listen to music. I’ve been using the Qin F21 Pro for a little over a week now and I love it. I’ll make a more in-depth post about it soon.&lt;&#x2F;p&gt;
+&lt;p&gt;Anyway, I&#x27;m not suggesting that getting rid of your smartphone will make you enlightened and happier. If you&#x27;re having difficulty managing your digital media usage, make the jump and try something new. If you decide that moving to a dumb-phone is the right move for you, go for it. What works for me may not work for you. &lt;&#x2F;p&gt;
+&lt;p&gt;Ask yourself this, why do you want to do it? I did this because I want to live more fully, do the things I want to do without being distracted, create more. To put it bluntly, I don&#x27;t care about most people. I don&#x27;t need to know what they&#x27;re up to every day; I&#x27;ll catch up with them when I talk to them. I knew I wasn’t going to miss out on anything.&lt;&#x2F;p&gt;
+&lt;p&gt;It’s the first day of 2023, I no longer use Instagram, Facebook, TikTok, Twitter, Snapchat and Reddit like I used to. Not because I’m punishing myself. I just have no desire to. I text, call, email and write blog posts like this now. Time is precious and I urge you to spend it the way you really want to spend it.&lt;&#x2F;p&gt;
+&lt;p&gt;Wishing you all a great 2023.&lt;&#x2F;p&gt;
+&lt;p&gt;V 🌌&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Improve your hotkeys and window management on macOS with the help of Karabiner Elements and Raycast. Customize your own hotkeys and actions to make your workflow more efficient. Discover the benefits of these free applications, including the ability to replace the Caps Lock key with the Hyper Key, move windows to the sides, maximize windows, and create Quicklinks with aliases. Enhance your experience with a better hotkey setup.">
+    <title>Hotkeys and Window Management on macOS</title>
+    
+    <link rel="stylesheet" href="https://vandam.tech/style.css?h=773c4feae5dad8a7ac711e67c5e9d40d563631e1580e412de7cf7d27d2005139">
+    
+    <link rel="icon" href="/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    
+      <link rel="alternate" type="application/rss+xml" title="RSS" href="https://vandam.tech/atom.xml">
+    
+</head>
+
+<body>
+    
+    <header class="header">
+        <div class="title">
+            <a href="https:&#x2F;&#x2F;vandam.tech""><h1><span class="magic-text">Vandam</span></h1></a>
+            <!-- Dark Mode Button -->
+            <div class="dark-mode-buttons">
+                <button class="dark-mode-button" id="dark-mode-on"><img src="https://vandam.tech/dark_mode.svg" width="24" height="24" alt="Dark mode" aria-label="dark mode toggle" title="Dark mode"></button>
+                <button class="dark-mode-button" id="dark-mode-off"><img src="https://vandam.tech/light_mode.svg" width="24" height="24" alt="Light mode" aria-label="light mode toggle" title="Light mode"></button>
+            </div>
+            <script src="/javascript/darkmode.js"></script>
+        </div>
+
+        
+        
+        
+        <nav class="header-links">
+            
+            
+            <a href="https:&#x2F;&#x2F;vandam.tech&#x2F;posts&#x2F;" class="button">Blog</a>
+            
+            
+            
+            <a href="&#x2F;Resume.pdf" target="_blank" class="button">Resume</a>
+            
+            <a href="https:&#x2F;&#x2F;github.com&#x2F;vandamd" target="_blank" class="button">GitHub</a>
+            
+            <a href="mailto:hi@vandam.tech" target="_blank" class="button">Mail</a>
+            
+        </nav>
+        
+    </header>
+
+
+    
+<main>
+    <h1 class="blog-title">Hotkeys and Window Management on macOS</h1>
+    
+    <p class="secondary">9 January, 2023</p>
+    
+    <div class="space"></div>
+    <p>I find window management one of the biggest weaknesses of macOS. However, it can be remedied with a bit of effort. You may have heard of applications such as <a href="https://magnet.crowdcafe.com/">Magnet</a> or <a href="https://rectangleapp.com/">Rectangle</a>, but there is a better, free alternative in my opinion. Before discussing that, let's talk about hotkeys.</p>
+<p>Imagine having a hotkey that could do anything you want. That would be great, right? With what I'm going to show you, you can customise your own hotkeys and actions. It has truly improved the way I use my MacBook.</p>
+<h2 id="goodbye-caps-lock-hello-hyper-key">Goodbye Caps Lock, hello Hyper Key</h2>
+<p>I rarely use the Caps Lock. Occasionally, I'll type in all caps to shout at someone over text, but otherwise it's not very useful for me. I can just hold down Shift! I’ve replaced it with something called the <strong>Hyper Key</strong>. </p>
+<p>With the Hyper Key, you can combine it with any other key. It is unlikely to be assigned to any existing shortcuts, so you can use that hotkey anywhere on macOS.</p>
+<h2 id="how-do-i-get-this-hyper-key-thing">How do I get this Hyper Key thing?</h2>
+<p>To assign the Hyper Key, I use an application called Karabiner Elements. The link is <a href="https://karabiner-elements.pqrs.org/">here</a>.</p>
+<p>The setup process can be overwhelming, as many things may pop up. Take your time and follow the instructions. Once it's running, let's set up something called <strong>Rules</strong>.</p>
+<p>Simplified Explanation: When you press a key, it performs an action. This action is usually outputting a letter, symbol, or initiating a command (e.g. Control, Option, Command, Escape, etc.). With rules, we can customise that action! Below is a screenshot of the rules I use.</p>
+<p><img src="/blog/Karabiner-Rules.png" alt="Untitled" /></p>
+<h2 id="how-do-i-add-rules">How do I add rules?</h2>
+<ol>
+<li>Open Karabiner Elements Settings from the menu bar.</li>
+<li>Select 'Complex Modifications' on the side menu.</li>
+<li>Press the 'Add rule' button.</li>
+<li>Click the 'Import more rules from the Internet (Open a web browser)' button.</li>
+<li>Search for <code>CAPS_LOCK to Hyper/Escape, Hyper + i/j/k/l Vim navigation and others</code>.</li>
+<li>Press the 'import' button on the top result.</li>
+<li>Enable <code>CAPS_LOCK to HYPER (SHIFT+COMMAND+OPTION+CONTROL) or ESCAPE (If Alone)</code>.</li>
+<li>Search for <code>Disable WifiDiagnostics shortcuts (Free up Hyper-W)</code>.</li>
+<li>Import and enable <code>Disable command+control+option+shift+, which triggers WiFi logging</code>.</li>
+</ol>
+<p>If you've done it correctly, pressing Caps Lock won't cause the key to light up!</p>
+<h2 id="how-can-i-start-using-the-hyper-key">How can I start using the Hyper Key?</h2>
+<p>You could assign it in applications you already use but I highly recommend you to use it in an application called Raycast. For those of you who are familiar to the Spotlight feature on macOS, it's essentially that but on steroids. It has clipboard history, window management, extensions, you can map hotkeys for any app, and so much more with the built in store. The link for Raycast is <a href="https://www.raycast.com/">here</a>.</p>
+<p>After installing it, I recommend binding it with Hyper + Space. To open up Raycast settings you can toggle Raycast and then press Command + Comma or you can search for the settings with Raycast.</p>
+<h2 id="okay-what-hotkeys-should-i-use">Okay, what hotkeys should I use?</h2>
+<p>I'm not sure which applications you use, but here are some of my hotkeys. I have the entire bottom row free, except for Hyper + C, which centres my focused window.</p>
+<table><thead><tr><th>Hotkey</th><th>Action</th></tr></thead><tbody>
+<tr><td>Hyper + Space</td><td>Open Raycast</td></tr>
+<tr><td>Hyper + W</td><td>Open Arc</td></tr>
+<tr><td>Hyper + S</td><td>Open Spotify</td></tr>
+<tr><td>Hyper + A</td><td>Open iTerm2</td></tr>
+<tr><td>Hyper + N</td><td>Open Notion</td></tr>
+<tr><td>Hyper + M</td><td>Open Messages</td></tr>
+<tr><td>Hyper + B</td><td>Open Sublime Text</td></tr>
+<tr><td>Hyper + V</td><td>Open Anki</td></tr>
+<tr><td>Hyper + X</td><td>Open Mail</td></tr>
+<tr><td>Hyper + Z</td><td>Open Todoist</td></tr>
+<tr><td>Control + Enter</td><td>Toggle Bitwarden Shortcut in Raycast</td></tr>
+</tbody></table>
+<h2 id="did-you-forget-about-window-management">Did you forget about Window Management?</h2>
+<p>No, here it is! Raycast can also manage my windows. I find this even faster than the typical window snapping that Windows has! Super powerful stuff.</p>
+<p><img src="/blog/Window-Hotkeys.png" alt="Untitled" /></p>
+<p>The amount of customisation you can do in Raycast is impressive. It's definitely worth checking out if you can. There's a learning curve with the hotkeys, but once you get used to them, life becomes much easier.</p>
+<h2 id="minimal-setup-suggestion">Minimal Setup Suggestion</h2>
+<p>As a starting point, I would set up:</p>
+<ul>
+<li>Hyper + Space to toggle Raycast</li>
+<li>Hyper + Arrow Keys to move windows to the sides</li>
+<li>Hyper + Enter to maximise windows</li>
+<li>Create a &quot;Quicklink&quot; to &quot;Search Google&quot; with an alias of &quot;gs&quot; or any other short name.</li>
+</ul>
+<p>If you enter &quot;gs&quot; into Raycast and press Space, you can make a quick Google search and it’ll open in your default browser.</p>
+<p>Once you start experimenting, you'll find what works for you. The hotkeys I showed are what work for me; feel free to use them as inspiration. If you need any help, don't hesitate to reach out to me via email or text if you have my number!</p>
+<p>V 😊</p>
+
+</main>
+
+
+    
+    <footer>
+        <div class="footer-content">
+            <p>🫶🏻 Vandam</p>
+            <p><a href="https://vandam.tech/atom.xml" target="_blank" >RSS</a>
+            <a href="https://github.com/vandamd/vandam.tech" target="_blank">Source</a></p>
+        </div>
+    </footer>
+    
+
+    <noscript>
+        <style>
+            .dark-mode-buttons {
+                display: none;
+            }
+        </style>
+    </noscript>
+</body>
+</html>
