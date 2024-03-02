@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Vandam&#x27;s Weblog</title>
+	<link href="https://vandam.tech/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://vandam.tech"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2024-02-11T00:00:00+00:00</updated>
+	<id>https://vandam.tech/atom.xml</id>
+	<entry xml:lang="en">
+		<title>About me</title>
+		<published>2024-02-10T00:00:00+00:00</published>
+		<updated>2024-02-11T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://vandam.tech/about/" type="text/html"/>
+		<id>https://vandam.tech/about/</id>
+		<content type="html">&lt;p&gt;Hi there! I&#x27;m Vandam. I think I have a cool name. It reminds a lot of people of &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Jean-Claude_Van_Damme&quot;&gt;Jean Claude Van Damme&lt;&#x2F;a&gt;. I can&#x27;t quite do the splits (yet) though.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;my-fabulous-face&quot;&gt;My fabulous face&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;me.jpg&quot; alt=&quot;Vandam&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;what-i-do&quot;&gt;What I do&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;I&#x27;m interning at Dyson as a Software Engineer&lt;&#x2F;li&gt;
+&lt;li&gt;I also attend the University of Bristol, studying Engineering Mathematics&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;what-i-love&quot;&gt;What I love&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Bouldering (V6 Kilter @ 50°)&lt;&#x2F;li&gt;
+&lt;li&gt;Hiking&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=-zjJpFYtx9s&quot;&gt;Gävle goat&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;(Digital) Minimalism&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;me-on-the-internet&quot;&gt;Me on the internet&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;mailto:hi@vandam.tech&quot;&gt;Email&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;vandamd&quot;&gt;LinkedIn&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;vandamd&quot;&gt;GitHub&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.cosmos.so&#x2F;vandam&quot;&gt;Cosmos&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Stepping back</title>
+		<published>2023-01-01T00:00:00+00:00</published>
+		<updated>2023-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://vandam.tech/writing/stepping-back/" type="text/html"/>
+		<id>https://vandam.tech/writing/stepping-back/</id>
+		<content type="html">&lt;p&gt;At the time of writing this, I&#x27;m 19 years old. I grew up with technology for most of my life—we had a huge beige family computer in our living room, and I&#x27;d watch Digimon with my brother. What a time!&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;ve had a long relationship with all sorts of screens—TVs, Game Boys, DSs, PSPs, iPods, netbooks, and laptops—but by far, I&#x27;ve had the worst relationship with my phone.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;m living in the 21st century, it&#x27;s normal to have Instagram, Facebook, Twitter, Reddit, and TikTok, right? Yes, but maybe it&#x27;s not normal to be spending hours scrolling mindlessly through feed after feed. It&#x27;s not normal to not be bored.&lt;&#x2F;p&gt;
+&lt;p&gt;I was addicted to my phone, spending 10+ hours on it every day. I knew it wasn&#x27;t okay, but I was reluctant, maybe even scared, to make the jump. I experimented with deleting and limiting apps on my phone, and deactivating accounts, but fast forward to November 2022, I bought my first dumb-phone. I used this particular phone for a month or so; it had the bare minimum - calls and texts - and I had never been so happy in my life.&lt;&#x2F;p&gt;
+&lt;p&gt;I realised it was pretty hardcore and I knew I needed a few more functionalities like a camera for scanning QR codes, my calendar, the ability buy and use train tickets, and listen to music. I’ve been using the Qin F21 Pro for a little over a week now and I love it. I’ll make a more in-depth post about it soon.&lt;&#x2F;p&gt;
+&lt;p&gt;Anyway, I&#x27;m not suggesting that getting rid of your smartphone will make you enlightened and happier. If you&#x27;re having difficulty managing your digital media usage, make the jump and try something new. If you decide that moving to a dumb-phone is the right move for you, go for it. What works for me may not work for you. &lt;&#x2F;p&gt;
+&lt;p&gt;Ask yourself this, why do you want to do it? I did this because I want to live more fully, do the things I want to do without being distracted, create more. To put it bluntly, I don&#x27;t care about most people. I don&#x27;t need to know what they&#x27;re up to every day; I&#x27;ll catch up with them when I talk to them. I knew I wasn’t going to miss out on anything.&lt;&#x2F;p&gt;
+&lt;p&gt;It’s the first day of 2023, I no longer use Instagram, Facebook, TikTok, Twitter, Snapchat and Reddit like I used to. Not because I’m punishing myself. I just have no desire to. I text, call, email and write blog posts like this now. Time is precious and I urge you to spend it the way you really want to spend it.&lt;&#x2F;p&gt;
+&lt;p&gt;Wishing you all a great 2023.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>
